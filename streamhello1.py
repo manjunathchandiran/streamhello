@@ -38,8 +38,8 @@ def get_base64_image(image_path):
 val = 0
 
 # Load your image
-#image_path = "background-image.jpg"  # Local image path
-image_base64 = get_base64_image(path_imag)
+image_path = "background-image.jpg"  # Local image path
+#image_base64 = get_base64_image(path_imag)
 # Slider for width control
 #width = st.slider("Set File Uploader Width", min_value=100, max_value=800, value=400)
 # Use the base64 string in the background image
